@@ -4,6 +4,7 @@ let operacao = prompt ('Escolha uma operação [+,-,*,/,%]:');
 let num2 = parseFloat (prompt('Digite o segundo número:'));
 let resultado = undefined
 
+
 switch(operacao) {
     case '1':
         resultado = num1 + num2
